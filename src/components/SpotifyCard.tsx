@@ -37,7 +37,7 @@ export const SpotifyCard = () => {
       
       <div className="mt-4 pt-4 border-t border-border">
         <a 
-          href="https://open.spotify.com"
+          href="https://open.spotify.com/playlist/02zbKZaUjPLubfMkGb0Iyv?si=581be5a63e57464d"
           target="_blank"
           rel="noopener noreferrer"
           className="text-xs text-muted-foreground hover:text-green-500 transition-colors flex items-center gap-2"

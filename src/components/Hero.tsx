@@ -20,7 +20,7 @@ export const Hero = () => {
             </div>
             <div>
               <h1 className="text-3xl font-bold mb-1">Saurabh.</h1>
-              <p className="text-muted-foreground text-sm">@saurabh</p>
+              <p className="text-muted-foreground text-sm">@init4saurabh</p>
             </div>
             <div className="flex gap-2">
               <Button variant="ghost" size="icon" className="hover:bg-accent/20">
@@ -97,7 +97,7 @@ export const Hero = () => {
               <p className="text-sm text-muted-foreground mb-1">Current Status</p>
               <p className="text-xl font-semibold">Building the future, one commit at a time</p>
             </div>
-            <div className="text-6xl">🚀</div>
+            <div className="text-6xl"></div>
           </div>
         </Card>
       </div>

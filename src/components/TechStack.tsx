@@ -29,7 +29,7 @@ const techStack = {
   "Currently Learning": [
     "Rust",
     "Web3",
-    "AI/ML",
+    "",
   ],
 };
 
