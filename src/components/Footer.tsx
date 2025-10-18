@@ -16,23 +16,23 @@ export const Footer = () => {
           </div>
 
           <div className="flex gap-2">
-            <Button variant="ghost" size="icon" className="hover:bg-accent/20">
+            <Button variant="ghost" size="icon" className="hover:bg-white/20">
               <Github className="h-5 w-5" />
             </Button>
-            <Button variant="ghost" size="icon" className="hover:bg-accent/20">
+            <Button variant="ghost" size="icon" className="hover:bg-white/20">
               <Linkedin className="h-5 w-5" />
             </Button>
-            <Button variant="ghost" size="icon" className="hover:bg-accent/20">
+            <Button variant="ghost" size="icon" className="hover:bg-white/20">
               <Twitter className="h-5 w-5" />
             </Button>
-            <Button variant="ghost" size="icon" className="hover:bg-accent/20">
+            <Button variant="ghost" size="icon" className="hover:bg-white/20">
               <Mail className="h-5 w-5" />
             </Button>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {currentYear} Saurabh. Built with React & Tailwind CSS</p>
+          <p>© {currentYear} Saurabh. Peace Out</p>
         </div>
       </div>
     </footer>

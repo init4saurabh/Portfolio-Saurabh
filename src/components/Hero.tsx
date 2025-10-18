@@ -16,23 +16,23 @@ export const Hero = () => {
                 alt="Saurabh" 
                 className="w-32 h-32 rounded-2xl object-cover border-2 "
               />
-              <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-green-500 rounded-full border-4 border-card animate-pulse" />
+             
             </div>
             <div>
               <h1 className="text-3xl font-bold mb-1">Saurabh.</h1>
               <p className="text-muted-foreground text-sm">@init4saurabh</p>
             </div>
             <div className="flex gap-2">
-              <Button variant="ghost" size="icon" className="hover:bg-accent/20">
+              <Button variant="ghost" size="icon" className="hover:bg-white/20">
                 <Github className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="hover:bg-accent/20">
+              <Button variant="ghost" size="icon" className="hover:bg-white/20">
                 <Linkedin className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="hover:bg-accent/20">
+              <Button variant="ghost" size="icon" className="hover:bg-white/20">
                 <Twitter className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="hover:bg-accent/20">
+              <Button variant="ghost" size="icon" className="hover:bg-white/20">
                 <Mail className="h-5 w-5" />
               </Button>
             </div>
@@ -92,7 +92,7 @@ export const Hero = () => {
         </Card>
 
         {/* Status Card */}
-        <Card className="md:col-span-7 p-6 border-border bg-gradient-to-br from-accent/10 to-transparent hover-lift card-glow">
+        <Card className="md:col-span-7 p-6 border-border ">
           <div className="flex items-center justify-between h-full">
             <div>
               <p className="text-sm text-muted-foreground mb-1">Current Status</p>
