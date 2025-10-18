@@ -7,15 +7,13 @@ const techStack = {
     "TypeScript",
     "Tailwind CSS",
     "Shadcn UI",
-    "Framer Motion",
+    "Material UI",
     "React Query",
   ],
   Backend: [
     "Node.js",
     "Express.js",
-    "Hono.js",
-    "Python",
-    "FastAPI",
+     "Next.js",
     "REST APIs",
   ],
   "Database & Services": [
@@ -23,13 +21,11 @@ const techStack = {
     "MongoDB",
     "Supabase",
     "Prisma ORM",
-    "Redis",
-    "Docker",
+   
   ],
   "Currently Learning": [
-    "Rust",
-    "Web3",
-    "",
+    "Docker",
+    
   ],
 };
 
