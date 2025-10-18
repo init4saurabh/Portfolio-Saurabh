@@ -30,7 +30,7 @@ const links = [
 
 export const Links = () => {
   return (
-    <Card className="p-6 border-border bg-card hover-lift card-glow">
+     <Card className="p-6 border-border bg-card hover-lift">
       <h3 className="text-2xl font-bold mb-6">
         <span className="text-accent">LIN</span>
         <br />
@@ -44,7 +44,7 @@ export const Links = () => {
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex items-center gap-4 p-3 rounded-lg border border-border bg-card/50 transition-all duration-300 ${link.color} group`}
+            className={`flex items-center gap-4 p-3 rounded-lg border border-border bg-card/50 transition-all duration-300 hover:border-purple group`}
           >
             <div className="p-2 rounded-md bg-card border border-border group-hover:border-accent transition-colors">
               <link.icon className="h-5 w-5 text-muted-foreground group-hover:text-accent transition-colors" />

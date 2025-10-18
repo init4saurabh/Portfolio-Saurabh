@@ -48,14 +48,14 @@ export const TechStack = () => {
           {Object.entries(techStack).map(([category, items]) => (
             <Card 
               key={category} 
-              className="p-6 border-border bg-card hover-lift card-glow"
+               className="p-6 border-border bg-card hover-lift"
             >
               <h3 className="text-lg font-semibold mb-4 text-accent">{category}:</h3>
               <div className="flex flex-wrap gap-2">
                 {items.map((tech) => (
                   <span
                     key={tech}
-                    className="px-3 py-1 bg-secondary text-secondary-foreground rounded-md text-sm border border-border hover:border-accent/50 transition-colors"
+                    className="px-3 py-1 bg-secondary text-secondary-foreground rounded-md text-sm border hover:border-white/50 dark:hover:border-dark-4/50 transition-all hover:text-white bg-neutral-800/30 dark:bg-transparent backdrop-blur-xl backdrop-saturate-200"
                   >
                     {tech}
                   </span>

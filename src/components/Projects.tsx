@@ -38,7 +38,7 @@ export const Projects = () => {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className={`border-border bg-gradient-to-br ${project.gradient} hover-lift card-glow group overflow-hidden`}
+                className={`border-border bg-gradient-to-br ${project.gradient} hover-lift group overflow-hidden`}
             >
               {/* Placeholder for landing page screenshot */}
               <div className="aspect-[4/3] bg-card/50 border-b border-border flex items-center justify-center">
@@ -76,8 +76,8 @@ export const Projects = () => {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-2 py-1 bg-card/80 backdrop-blur-sm text-foreground rounded-md text-xs border border-border"
-                    >
+                    className="px-2 py-1 bg-card/80 backdrop-blur-sm text-foreground rounded-md text-xs border hover:border-white/50 dark:hover:border-dark-4/50 transition-all hover:text-white bg-neutral-800/30 dark:bg-transparent backdrop-blur-xl backdrop-saturate-200"
+                  >
                       {tag}
                     </span>
                   ))}

@@ -3,7 +3,7 @@ import { Music } from "lucide-react";
 
 export const SpotifyCard = () => {
   return (
-    <Card className="p-6 border-border bg-card hover-lift card-glow overflow-hidden">
+    <Card className="p-6 border-border bg-card hover-lift overflow-hidden">
       <div className="flex items-start gap-4">
         {/* Album Art Placeholder */}
         <div className="w-20 h-20 rounded-md bg-gradient-to-br from-green-500/20 to-emerald-500/20 flex items-center justify-center flex-shrink-0 border border-border">

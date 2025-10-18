@@ -14,7 +14,7 @@ export const Hero = () => {
               <img 
                 src={profileImage} 
                 alt="Saurabh" 
-                className="w-32 h-32 rounded-2xl object-cover border-2 border-accent/50"
+                className="w-32 h-32 rounded-2xl object-cover border-2 "
               />
               <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-green-500 rounded-full border-4 border-card animate-pulse" />
             </div>
@@ -66,7 +66,8 @@ export const Hero = () => {
 
             <div className="flex items-center gap-2 text-sm">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-              <span className="text-green-500 font-medium">Available for work</span>
+              <span className="text-yellow-500 font-medium">Available for work</span>
+              
             </div>
 
             <div className="pt-4">
